@@ -4,8 +4,7 @@ import { navigate } from "@reach/router";
 import Carousel from "./Carousel";
 import ErrorBoundary from "./ErrorBoundary";
 import ThemeContext from "./ThemeContext";
-
-const Modal = lazy(() => import("./Modal"));
+import Modal from "./Modal";
 class Details extends Component {
   state = { loading: true, showModal: false };
   componentDidMount() {

@@ -5,7 +5,7 @@ import colors from "./colors";
 
 const spin = keyframes`
 to {
-  transform: rotate(360deg)
+    transform: rotate(360deg)
 }
 `;
 
